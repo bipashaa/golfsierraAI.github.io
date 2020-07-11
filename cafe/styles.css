@@ -58,7 +58,6 @@ a:hover {
 .page2h1
 {
     color: white;
-     margin-top: 100px; 
      text-align: center;
      margin-top: 200px;
 }
@@ -142,6 +141,7 @@ a:hover {
 {
     background-color: #1b262c ;
     color: #eeeeee;
+    font-size: 20px;
     text-align: left;
 }
 .card-body
@@ -240,6 +240,35 @@ a:hover {
     margin-top: 100px;
     text-align: center;
 
+}
+.page2h1
+{
+    color: white;
+     text-align: center;
+     margin-top: 50px;
+     padding-bottom: 50px;
+}
+.page2h3
+{
+    color: white; 
+    text-align: center; 
+    width: 50%;
+    margin: auto;
+
+}
+.page3h1
+{
+    color: white;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    
+}
+.page3h3
+{
+    color: white;
+    padding-bottom: 10px;
+    width: 50%;
+    margin: auto;
 }
 
     }
