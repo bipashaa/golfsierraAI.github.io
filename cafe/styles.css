@@ -2,6 +2,9 @@ body {
     font-family: "Montserrat", sans-serif;
     overflow-x: hidden
 }
+h1{
+    font-size: 40px;
+}
 ul {
 	display: inline-block;
 	background-color: transparent;
@@ -24,11 +27,6 @@ a:hover {
 	font-size: 35px;
 	font-family: "Montserrat", sans-serif;
 	color: #87d4c5;
-}
-.imagepizza {
-	width: 50%;
-	border-radius: 80%;
-	margin-left: 20px;
 }
 .row1 {
 	text-align: center;
@@ -54,6 +52,7 @@ a:hover {
     margin: 50px;
     height: 700px;
     margin-top: 100px;
+    text-align: center;
     margin-bottom: 100px;
 }
 .page2h1
@@ -69,10 +68,6 @@ a:hover {
     text-align: center; 
     padding-bottom: 50px;
 }
-
-
-
-
 .imagepage3
 {
     z-index: 1;
@@ -134,12 +129,14 @@ a:hover {
 {
     background-color:#1b262c;
     padding-bottom: 10%;
+    padding-top: 100px;
 }
 .card
 {
     margin: auto;
     margin-bottom: 50px;
     border: none;
+    width: 18rem;
 }
 .card-text
 {
@@ -188,16 +185,27 @@ a:hover {
     color: beige;
     margin: 20px 10px;
 }
-#panel, #flip {
+#flip{
     text-align: center;
     background-color: #204051;
     border: solid 1px  #204051;
     margin: 0;
   }
+ #panel {
+    text-align: center;
+    background-color: #204051;
+    border: solid 1px  #204051;
+    margin: 0;
+    display: none;
+  }
   @media only screen and (max-width: 1026px) {
     .imagepage3,.imagepage4-2 {
         display: none;
 
+    }
+    .image2
+    {
+        margin-left: 175px;
     }
     .imagepage8
     {
@@ -221,5 +229,13 @@ a:hover {
     {
         font-size: 20px;
     }
+    .card
+{
+    margin: auto;
+    margin-bottom: 50px;
+    border: none;
+    width: 22rem;
+    
+}
 
     }
