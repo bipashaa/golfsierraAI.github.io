@@ -394,12 +394,19 @@ a:hover
 {
     margin-top: 10%;
 }
+.rowlast
+{
+    margin: 10% 0 ;
+}
 
 
     
   }
-
-  #page12{
+  .linda{
+    font-family: 'Berkshire Swash', cursive;
+    color: beige;
+}
+#page12{
     background-color: #393e46;
     padding: 70px;
     text-align: center;
@@ -417,7 +424,7 @@ a:hover
 /* FOOTER */
 
 #footer{
-    background-color: #5c7658;
+    background-color: #197278;
     padding: 70px;
 }
 
@@ -429,22 +436,3 @@ a:hover
 #footer .p2{
     font-weight: bold;
 }
-.pp{
-    display: block;
-    color: black;
-    text-decoration: none;
-    
-
-}
-.pps
-{
-    display: inline;
-    float: right;
-}
-.pp:hover{
-    color: white;
-    text-decoration: none;
-
-
-}
-
